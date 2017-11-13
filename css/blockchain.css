@@ -1,0 +1,252 @@
+.bc-content {
+	width: 1024px;
+	height: 500px;
+	margin: auto;
+	margin-top: 15px;
+	position: relative;
+	/*background: #784134;*/
+}
+
+/*box-left	*/
+.bc-content .box-left {
+	width: 150px;
+	height: 500px;
+	position: relative;
+	float: left;
+}
+
+.bc-content .box-left ul li {
+	display: block;
+    width: 130px;
+    height: 70px;
+    text-align: center;
+    margin-top: 40px;
+    background: #2fd2b9;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    border-radius: 0px 0px 0px 100px;
+    line-height: 45px;
+    color: white;
+    box-shadow: 2px 2px 12px #098;
+}
+
+.bc-content .box-left ul #js {
+	box-shadow: 6px 5px 14px #000;
+	background: #961836;
+	animation: Left 1s;
+}
+
+.bc-content .box-left ul #yx {
+	animation: Left 1.3s;
+}
+
+.bc-content .box-left ul #yy {
+	animation: Left 1.6s;
+}
+
+.bc-content .box-left ul #yj {
+	animation: Left 1.8s;
+}
+
+/*box-right*/
+.bc-content .box-right {
+	width: 824px;
+	height: 500px;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	background: url('../images/kl-bg.png') no-repeat;
+}
+
+.bc-content .box-right ul li {
+	position: absolute;
+	display: block;
+}
+
+.bc-content .box-right ul li span {
+	font-size: 18px;
+	line-height: 21px;
+	display: block;
+}
+
+.bc-content .box-right ul li h2 {
+	font-weight: bolder;
+	font-size: 35px;
+}
+
+.bc-content .box-right ul li img {
+	position: absolute;
+}
+
+.bc-content .box-right ul #kl1 {
+	display: block;
+}
+
+.bc-content .box-right ul #kl1 #sp1 {
+    width: 360px;
+    height: 215px;
+    margin-left: 17px;
+    margin-top: 60px;
+    text-indent: 2em;
+}
+
+.bc-content .box-right ul #kl1 #sp2 {
+	width: 755px;
+	height: 100px;
+	margin-left: 17px;
+	margin-top: 14px;
+}
+
+.bc-content .box-right ul #kl1 h2 {
+	position: absolute;
+    top: 17px;
+    left: 115px;
+	color: #961836;
+}
+
+.bc-content .box-right ul #kl1 img {
+	display: block;
+	bottom: -80px;
+    left: 65px;
+}
+
+.bc-content .box-right ul #kl2 {
+	display: none;
+}
+
+.bc-content .box-right ul #kl2 img {
+	top: 20px;
+	left: 65px;
+}
+
+.bc-content .box-right ul #kl2 #sp3 {
+	width: 360px;
+    height: 110px;
+    margin-left: 17px;
+    margin-top: 180px;
+    text-indent: 2em;
+}
+
+.bc-content .box-right ul #kl2 #sp4 {
+	width: 756px;
+	height: 100px;
+	text-indent: 2em;
+ 	margin-left: 17px;
+}
+
+.bc-content .box-right ul #kl2 h2 {
+	position: absolute;
+	bottom: -85px;
+    left: 75px;
+    color: #616217;
+}
+
+.bc-content .box-right ul #kl3 {
+	display: none;
+}
+
+.bc-content .box-right ul #kl3 h2 {
+    top: 275px;
+    right: -300px;
+	color: #148d42;
+	width: 35px;
+	text-align: center;
+	position: absolute;
+	line-height: 35px;
+}
+
+.bc-content .box-right ul #kl3 #sp5 {
+	width: 360px;
+	height: 253px;
+	margin-left: 14px;
+	margin-top: 20px;
+	text-indent: 2em;
+}
+
+.bc-content .box-right ul #kl3 #sp6 {
+	text-indent: 2em;
+	margin-left: 14px;
+	width: 450px;
+}
+
+.bc-content .box-right ul #kl3 #sp5 #bc3 {
+    left: 95px;
+    top: 125px;
+}
+
+.bc-content .box-right ul #kl3 #bc4 {
+	bottom: -35px;
+    right: -245px;
+}
+
+.bc-content .box-right ul #kl4 {
+	display: none;
+}
+
+.bc-content .box-right ul #kl4 #sp7 {
+	width: 365px;
+    height: 210px;
+    margin-top: 75px;
+    margin-left: 14px;
+    text-indent: 2em;
+}
+
+.bc-content .box-right ul #kl4 #sp8 {
+	width: 464px;
+	height: 185px;
+	margin-left: 14px;
+}
+
+.bc-content .box-right ul #kl4 h2 {
+	position: absolute;
+	top: 22px;
+    left: 113px;
+    color: #092235;
+}
+
+.bc-content .box-right ul #kl4 img {
+	/*position: absolute;*/
+	right: -300px;
+    bottom: -1px
+}
+
+.bc-content .box-right #bc6 {
+	position: absolute;
+	right: 175px;
+	top: 0px;
+}
+
+/*nav*/
+/*.nav-box {
+	width: 1px;
+	height: 1px;
+	background: #000;
+	position: relative;
+	float: right;
+}*/
+
+.bc-content .nav-box .nav {
+	position: absolute;
+	width: 170px;
+	height: 170px;
+    top: -40px;
+    right: 115px;
+    z-index: 9999;
+}
+
+@keyframes Left {
+	0% {
+		transform: translateX(20px) rotateZ(90deg);
+		opacity: 0.3;
+	}
+
+	50% {
+		opacity: 0.6;
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px) rotateZ(0deg);
+	}
+}

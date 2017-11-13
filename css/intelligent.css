@@ -1,0 +1,230 @@
+.inte-content {
+	width: 1024px;
+	height: 500px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+/*left*/
+.inte-content .box-left {
+	height: 500px;
+	width: 150px;
+	margin-left: 20px;
+	float: left;
+}
+
+.inte-content .box-left ul li button {
+	border: none;
+    height: 150px;
+    width: 68px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 45px;
+    margin-left: 80px;
+    z-index: 99;
+}
+
+.inte-content .box-left ul li button span {
+	display: block;
+    width: 20px;
+    height: 80px;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-top: -61px;
+    position: absolute;
+}
+
+.inte-content .box-left ul li #button1 {
+	background: url('../images/ibut1.png');
+	color: #ee6c5d;
+	margin-left: 95px;
+    height: 137px;
+    animation: LeftBox 0.8s;
+}
+
+.inte-content .box-left ul li #button2 {
+	background: url('../images/ibut2.png');
+	color: #064d47;
+	margin-top: -30px;
+	animation: LeftBox 1.1s;
+}
+
+.inte-content .box-left ul li #button3 {
+	background: url('../images/ibut3.png');
+	color: #c92ff5;
+	margin-top: -25px;
+	animation: LeftBox 1.4s;
+}
+
+/*right*/
+.inte-content .box-right {
+	width: 80%;
+	height: 500px;
+	background: #00f;
+	float: left;
+	position: relative;
+	background: url('../images/inte-box.png') no-repeat;
+	/*background: #f0c0f0;*/
+}
+
+.inte-content .box-right .main-content ul h2 {
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.inte-content .box-right .main-content ul li {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.inte-content .box-right .main-content ul #content1 {
+	display: block;
+	top: 75px;
+	left: 27px;
+	position: absolute;
+	text-indent: 2em;
+}
+
+.inte-content .box-right .main-content ul #content1 h2 {
+	color: #ee523e;
+	display: block;
+	position: absolute;
+	top: -50px;
+    left: 60px;
+}
+
+.inte-content .box-right .main-content ul #content1 #inte3 {
+	position: absolute;
+	bottom: 0px;
+	right: -300px;
+}
+
+.inte-content .box-right .main-content ul #content2 {
+	display: none;
+	top: 25px;
+	left: 27px;
+	position: absolute;
+	text-indent: 2em;
+}
+
+.inte-content .box-right .main-content ul #content2 h2 {
+	color: #064d47;
+    display: block;
+    position: absolute;
+    right: -370px;
+    bottom: 15px;
+    width: 35px;
+    height: auto;
+    line-height: 32px;
+    text-indent: 0em;
+}
+
+.inte-content .box-right .main-content ul #content2 #inte2 {
+	position: absolute;
+	right: -320px;
+    bottom: 7px;
+}
+
+.inte-content .box-right .main-content ul #content3 {
+	display: none;
+	top: 25px;
+	left: 27px;
+	position: absolute;
+	text-indent: 2em;
+}
+
+.inte-content .box-right .main-content ul #content3 h2 {
+	color: #c92ff5;
+    display: block;
+    position: absolute;
+    right: -355px;
+    bottom: -428px;
+    width: 35px;
+    height: auto;
+    line-height: 32px;
+    z-index: 1;
+    text-indent: 0em;
+}
+
+.inte-content .box-right .main-content ul #content3 #span1 {
+	display: block;
+	width: 345px;
+    height: 245px;
+    position: absolute;
+	/*background: #cf000f;*/
+}
+
+.inte-content .box-right .main-content ul #content3 #span2 {
+	display: block;
+    width: 365px;
+    height: 200px;
+    position: absolute;
+    /*background: #c0f0c0;*/
+    bottom: -451px;
+    left: 380px;
+}
+
+.inte-content .box-right .main-content ul #content3 #inte1 {
+	position: absolute;
+	bottom: -440px;
+	left: 0px;
+}
+
+/*inte-img*/
+.inte-content .box-right .inte-img {
+	position: absolute;
+	background: url('../images/inte4.png');
+	width: 305px;
+    height: 180px;
+  	right: 12px;
+    top: 75px;
+    transform: rotateX(90deg);
+    transform-style: preserve-3d;
+    transform-origin: bottom;
+    animation: IImg 0.8s 1.7s forwards; 
+}
+
+@keyframes IImg {
+	0% {
+		transform: rotateX(90deg);
+	}
+
+	100% {
+		transform: rotateX(0deg);
+	}
+}
+
+/*nav*/
+.inte-content .box-right .nav {
+	width: 170px;
+	height: 170px;
+	position: absolute;
+	z-index: 9999;
+	top: -35px;
+    right: 79px;
+}
+
+@keyframes LeftBox {
+	0% {
+		opacity: 0.2;
+		transform:translate(-190px,0px);
+		-webkit-transform:translate(-190px,0px);
+		-moz-transform:translate(-190px,0px);
+		-o-transform:translate(-190px,0px);
+		-ms-transform:translate(-190px,0px);
+	}
+
+	50% {
+		opacity: 0.6;
+	}
+
+	100% {
+		transform:translate(0px,0px);
+		-webkit-transform:translate(0px,0px);
+		-moz-transform:translate(0px,0px);
+		-o-transform:translate(0px,0px);
+		-ms-transform:translate(0px,0px);
+	}
+}

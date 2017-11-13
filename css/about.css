@@ -1,0 +1,68 @@
+.us-content {
+    width: 800px;
+    height: 535px;
+	margin: auto;
+	margin-top: 15px;
+	background: url('../images/about-us.png') no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.us-content span {
+	color: #a1682f;
+	font-weight: bold;
+}
+
+/*box-left*/
+.us-content .box-left {
+	width: 50%;
+	height: 535px;
+	float: left;
+}
+
+.us-content .box-left ul li {
+	display: block;
+    width: 215px;
+    height: 55px;
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+.us-content .box-left ul li span {
+	display: block;
+	width: 100px;
+	float: right;
+	padding-top: 25px
+}
+
+/*box-right*/
+.us-content .box-right {
+	width: 50%;
+	height: 535px;
+	float: right;
+}
+
+.us-content .box-right ul li {
+    display: block;
+    width: 215px;
+    height: 50px;
+    margin-left: 110px;
+    margin-top: 80px;
+}
+
+.us-content .box-right ul li span {
+	display: block;
+	width: 100px;
+	float: right;
+	padding-top: 25px
+}
+
+/*nav*/
+.us-content .nav {
+	position: absolute;
+	width: 170px;
+	height: 170px;
+    right: 5px;
+	top: -50px;
+    z-index: 9999;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>封面 | Cover</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<style type="text/css">
+		.v {
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+
+		.skip {
+			width: 9%;
+			height: 8%;
+			position: absolute;
+			bottom: 8px;
+    		right: 1%;
+    		z-index: 1;
+    		display: block;
+		}
+
+		#cn {
+			width: 4%;
+		    height: 6%;
+		    position: absolute;
+		    top: 0px;
+		    left: 2px;
+		    display: block;
+		}
+
+		#en {
+			width: 4%;
+		    height: 6%;
+		    position: absolute;
+		    top: 0px;
+		    left: 4.5%;
+		    display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="v">
+		<video width="100%" height="100%" autoplay="autoplay" preload="preload">
+			<source src="video/22.mp4" type="video/mp4">
+		</video>
+		<a href="html/main-cn.html" class="skip"></a>
+		<a href="html/main-cn.html" id="cn"></a>
+		<a href="html/main-en.html" id="en"></a>
+	</div>
+
+	<audio src="mp3/bgmusic.mp3" autoplay="autoplay" loop="loop"></audio>
+</body>
+</html>
